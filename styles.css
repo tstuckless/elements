@@ -1,0 +1,69 @@
+/* Elements */
+
+body {
+	background-color: white;
+	color: black;
+	font-family: sans-serif;
+	line-height: 0;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.circle {
+    width: 11em;
+    height: 11em;
+    background-color: #FFEB3B;
+    border: 5px solid #333;
+    border-radius: 50%;
+    position: absolute;
+    left: 23%;
+    top: 24%;
+}
+
+.line {
+	height: 10px;
+	width: 99%;
+    background-color: dodgerblue;
+    border: 5px dashed indianred;
+	transform: rotate(-45deg);
+}
+
+.line-2 {
+	transform: rotate(5deg);
+	position: absolute;
+	top: 20em;
+}
+
+.line-3 {
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+.square {
+	width: 40em;
+    height: 40em;
+    background-color: red;
+    transform: rotate(45deg);
+    left: 42%;
+    top: 15%;
+    position: absolute;
+    border: 5px double #333;
+    box-shadow: 20px 20px 10px 1px #444;
+}
+
+.square-2 {
+	background-color: white;
+	left: 13%;
+    top: 15%;
+}
+
+.triangle {
+	width: 0px;
+    height: 0px;
+    border-left: 137px solid transparent;
+    border-right: 137px solid transparent;
+    border-top: 137px solid green;
+    left: 10%;
+    top: 27%;
+}
